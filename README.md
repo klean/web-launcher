@@ -13,7 +13,7 @@ Just run `gulp` and get cracking with some front-endin'.
 The `npm install` command installed the node modules that Web Launcher requires. NPM is a package manager, that comes with Node.js - read more about it [here](https://www.npmjs.com/). Automatically, NPM ran the command `bower install` which installed the Bower packages that is used by Web Launcher. Bower is a front-end package manager and you can read more about [here](http://bower.io/).
 
 ## Jade
-In Web Launcher you can use the templating language Jade instead of writing plain HTML. The task runner, Gulp, will then be used to compile Jade files til HTML files. A few of the advantages of Jade is that its shorter and faster to write and that you can "extend" Jade files into each other (I recommend placing your website's header and footer in `/layout/layout.jade`).
+In Web Launcher you can use the templating language Jade instead of writing plain HTML. The task runner, Gulp, will then be used to compile Jade files to HTML files. A few of the advantages of Jade is that its shorter and faster to write and that you can "extend" Jade files into each other (I recommend placing your website's header and footer in `/layout/layout.jade`).
 
 Read more about Jade [here](http://jade-lang.com/).
 
